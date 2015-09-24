@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7D4C86E1BB2C5870049FDD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D4C86D1BB2C5870049FDD5 /* AppDelegate.swift */; };
+		D7D4C8701BB2C5870049FDD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D4C86F1BB2C5870049FDD5 /* ViewController.swift */; };
+		D7D4C8731BB2C5870049FDD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8711BB2C5870049FDD5 /* Main.storyboard */; };
+		D7D4C8781BB2C5870049FDD5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8761BB2C5870049FDD5 /* LaunchScreen.xib */; };
+		D7D4C8841BB2C5870049FDD5 /* DemoMailServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D4C8831BB2C5870049FDD5 /* DemoMailServiceTests.swift */; };
+		D7D4C8A71BB2C6A70049FDD5 /* DemoConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D4C88E1BB2C6A70049FDD5 /* DemoConstant.swift */; };
+		D7D4C8A81BB2C6A70049FDD5 /* UIButtonRounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D4C88F1BB2C6A70049FDD5 /* UIButtonRounded.swift */; };
+		D7D4C8AC1BB2C6A70049FDD5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D4C8941BB2C6A70049FDD5 /* MainViewController.swift */; };
+		D7D4C8AE1BB2C6A70049FDD5 /* Calibri Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C89C1BB2C6A70049FDD5 /* Calibri Bold.ttf */; };
+		D7D4C8AF1BB2C6A70049FDD5 /* Calibri.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C89D1BB2C6A70049FDD5 /* Calibri.ttf */; };
+		D7D4C8B21BB2C6A70049FDD5 /* bigDescriptiveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D4C8A51BB2C6A70049FDD5 /* bigDescriptiveCell.swift */; };
+		D7D4C8B31BB2C6A70049FDD5 /* smallDescriptiveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D4C8A61BB2C6A70049FDD5 /* smallDescriptiveCell.swift */; };
+		D7D4C8B51BB2C7270049FDD5 /* UICustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D4C8B41BB2C7270049FDD5 /* UICustomTextField.swift */; };
+		D7D4C8BA1BB2E6C80049FDD5 /* Helper_OBJ.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D4C8B81BB2E6C80049FDD5 /* Helper_OBJ.m */; };
+		D7D4C8BB1BB2E6C80049FDD5 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D4C8B91BB2E6C80049FDD5 /* Helper.swift */; };
+		D7E4712D1BB3BC7400310CD1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7E4712C1BB3BC7400310CD1 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7D4C87E1BB2C5870049FDD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7D4C8601BB2C5860049FDD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7D4C8671BB2C5870049FDD5;
+			remoteInfo = DemoMailService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D7D4C8681BB2C5870049FDD5 /* DemoMailService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoMailService.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7D4C86C1BB2C5870049FDD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7D4C86D1BB2C5870049FDD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7D4C86F1BB2C5870049FDD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7D4C8721BB2C5870049FDD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7D4C8771BB2C5870049FDD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D7D4C87D1BB2C5870049FDD5 /* DemoMailServiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoMailServiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7D4C8821BB2C5870049FDD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7D4C8831BB2C5870049FDD5 /* DemoMailServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoMailServiceTests.swift; sourceTree = "<group>"; };
+		D7D4C88E1BB2C6A70049FDD5 /* DemoConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoConstant.swift; sourceTree = "<group>"; };
+		D7D4C88F1BB2C6A70049FDD5 /* UIButtonRounded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonRounded.swift; sourceTree = "<group>"; };
+		D7D4C8941BB2C6A70049FDD5 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D7D4C89C1BB2C6A70049FDD5 /* Calibri Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Calibri Bold.ttf"; sourceTree = "<group>"; };
+		D7D4C89D1BB2C6A70049FDD5 /* Calibri.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Calibri.ttf; sourceTree = "<group>"; };
+		D7D4C8A51BB2C6A70049FDD5 /* bigDescriptiveCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bigDescriptiveCell.swift; sourceTree = "<group>"; };
+		D7D4C8A61BB2C6A70049FDD5 /* smallDescriptiveCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = smallDescriptiveCell.swift; sourceTree = "<group>"; };
+		D7D4C8B41BB2C7270049FDD5 /* UICustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICustomTextField.swift; sourceTree = "<group>"; };
+		D7D4C8B61BB2E6C70049FDD5 /* DemoMailService-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoMailService-Bridging-Header.h"; sourceTree = "<group>"; };
+		D7D4C8B71BB2E6C80049FDD5 /* Helper_OBJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper_OBJ.h; sourceTree = "<group>"; };
+		D7D4C8B81BB2E6C80049FDD5 /* Helper_OBJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper_OBJ.m; sourceTree = "<group>"; };
+		D7D4C8B91BB2E6C80049FDD5 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		D7E4712C1BB3BC7400310CD1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7D4C8651BB2C5870049FDD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7D4C87A1BB2C5870049FDD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7D4C85F1BB2C5860049FDD5 = {
+			isa = PBXGroup;
+			children = (
+				D7D4C86A1BB2C5870049FDD5 /* DemoMailService */,
+				D7D4C8801BB2C5870049FDD5 /* DemoMailServiceTests */,
+				D7D4C8691BB2C5870049FDD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7D4C8691BB2C5870049FDD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7D4C8681BB2C5870049FDD5 /* DemoMailService.app */,
+				D7D4C87D1BB2C5870049FDD5 /* DemoMailServiceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7D4C86A1BB2C5870049FDD5 /* DemoMailService */ = {
+			isa = PBXGroup;
+			children = (
+				D7D4C88D1BB2C6A70049FDD5 /* Common */,
+				D7D4C8901BB2C6A70049FDD5 /* Controller */,
+				D7D4C8961BB2C6A70049FDD5 /* Helper */,
+				D7D4C8971BB2C6A70049FDD5 /* Library */,
+				D7D4C8981BB2C6A70049FDD5 /* Resources */,
+				D7D4C8A41BB2C6A70049FDD5 /* View */,
+				D7D4C86D1BB2C5870049FDD5 /* AppDelegate.swift */,
+				D7D4C86F1BB2C5870049FDD5 /* ViewController.swift */,
+				D7D4C8761BB2C5870049FDD5 /* LaunchScreen.xib */,
+				D7D4C86B1BB2C5870049FDD5 /* Supporting Files */,
+			);
+			path = DemoMailService;
+			sourceTree = "<group>";
+		};
+		D7D4C86B1BB2C5870049FDD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7D4C86C1BB2C5870049FDD5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7D4C8801BB2C5870049FDD5 /* DemoMailServiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7D4C8831BB2C5870049FDD5 /* DemoMailServiceTests.swift */,
+				D7D4C8811BB2C5870049FDD5 /* Supporting Files */,
+			);
+			path = DemoMailServiceTests;
+			sourceTree = "<group>";
+		};
+		D7D4C8811BB2C5870049FDD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7D4C8821BB2C5870049FDD5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7D4C88D1BB2C6A70049FDD5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D7D4C88E1BB2C6A70049FDD5 /* DemoConstant.swift */,
+				D7D4C88F1BB2C6A70049FDD5 /* UIButtonRounded.swift */,
+				D7D4C8B41BB2C7270049FDD5 /* UICustomTextField.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D7D4C8901BB2C6A70049FDD5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D7D4C8941BB2C6A70049FDD5 /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D7D4C8961BB2C6A70049FDD5 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				D7D4C8B71BB2E6C80049FDD5 /* Helper_OBJ.h */,
+				D7D4C8B81BB2E6C80049FDD5 /* Helper_OBJ.m */,
+				D7D4C8B91BB2E6C80049FDD5 /* Helper.swift */,
+				D7D4C8B61BB2E6C70049FDD5 /* DemoMailService-Bridging-Header.h */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		D7D4C8971BB2C6A70049FDD5 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		D7D4C8981BB2C6A70049FDD5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D7D4C8991BB2C6A70049FDD5 /* Assets */,
+				D7D4C8A31BB2C6A70049FDD5 /* StoryBoard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D7D4C8991BB2C6A70049FDD5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D7E4712B1BB3BC4F00310CD1 /* Images */,
+				D7D4C89A1BB2C6A70049FDD5 /* Doc */,
+				D7D4C89B1BB2C6A70049FDD5 /* Fonts */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		D7D4C89A1BB2C6A70049FDD5 /* Doc */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Doc;
+			sourceTree = "<group>";
+		};
+		D7D4C89B1BB2C6A70049FDD5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D7D4C89C1BB2C6A70049FDD5 /* Calibri Bold.ttf */,
+				D7D4C89D1BB2C6A70049FDD5 /* Calibri.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D7D4C8A31BB2C6A70049FDD5 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				D7D4C8711BB2C5870049FDD5 /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		D7D4C8A41BB2C6A70049FDD5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D7D4C8A51BB2C6A70049FDD5 /* bigDescriptiveCell.swift */,
+				D7D4C8A61BB2C6A70049FDD5 /* smallDescriptiveCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D7E4712B1BB3BC4F00310CD1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D7E4712C1BB3BC7400310CD1 /* Images.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7D4C8671BB2C5870049FDD5 /* DemoMailService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7D4C8871BB2C5870049FDD5 /* Build configuration list for PBXNativeTarget "DemoMailService" */;
+			buildPhases = (
+				D7D4C8641BB2C5870049FDD5 /* Sources */,
+				D7D4C8651BB2C5870049FDD5 /* Frameworks */,
+				D7D4C8661BB2C5870049FDD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoMailService;
+			productName = DemoMailService;
+			productReference = D7D4C8681BB2C5870049FDD5 /* DemoMailService.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7D4C87C1BB2C5870049FDD5 /* DemoMailServiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7D4C88A1BB2C5870049FDD5 /* Build configuration list for PBXNativeTarget "DemoMailServiceTests" */;
+			buildPhases = (
+				D7D4C8791BB2C5870049FDD5 /* Sources */,
+				D7D4C87A1BB2C5870049FDD5 /* Frameworks */,
+				D7D4C87B1BB2C5870049FDD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7D4C87F1BB2C5870049FDD5 /* PBXTargetDependency */,
+			);
+			name = DemoMailServiceTests;
+			productName = DemoMailServiceTests;
+			productReference = D7D4C87D1BB2C5870049FDD5 /* DemoMailServiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7D4C8601BB2C5860049FDD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Solution Analysts Pvt. Ltd.";
+				TargetAttributes = {
+					D7D4C8671BB2C5870049FDD5 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					D7D4C87C1BB2C5870049FDD5 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = D7D4C8671BB2C5870049FDD5;
+					};
+				};
+			};
+			buildConfigurationList = D7D4C8631BB2C5860049FDD5 /* Build configuration list for PBXProject "DemoMailService" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7D4C85F1BB2C5860049FDD5;
+			productRefGroup = D7D4C8691BB2C5870049FDD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7D4C8671BB2C5870049FDD5 /* DemoMailService */,
+				D7D4C87C1BB2C5870049FDD5 /* DemoMailServiceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7D4C8661BB2C5870049FDD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7D4C8731BB2C5870049FDD5 /* Main.storyboard in Resources */,
+				D7E4712D1BB3BC7400310CD1 /* Images.xcassets in Resources */,
+				D7D4C8781BB2C5870049FDD5 /* LaunchScreen.xib in Resources */,
+				D7D4C8AE1BB2C6A70049FDD5 /* Calibri Bold.ttf in Resources */,
+				D7D4C8AF1BB2C6A70049FDD5 /* Calibri.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7D4C87B1BB2C5870049FDD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7D4C8641BB2C5870049FDD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7D4C8B31BB2C6A70049FDD5 /* smallDescriptiveCell.swift in Sources */,
+				D7D4C8701BB2C5870049FDD5 /* ViewController.swift in Sources */,
+				D7D4C8A71BB2C6A70049FDD5 /* DemoConstant.swift in Sources */,
+				D7D4C8BA1BB2E6C80049FDD5 /* Helper_OBJ.m in Sources */,
+				D7D4C86E1BB2C5870049FDD5 /* AppDelegate.swift in Sources */,
+				D7D4C8B51BB2C7270049FDD5 /* UICustomTextField.swift in Sources */,
+				D7D4C8A81BB2C6A70049FDD5 /* UIButtonRounded.swift in Sources */,
+				D7D4C8BB1BB2E6C80049FDD5 /* Helper.swift in Sources */,
+				D7D4C8AC1BB2C6A70049FDD5 /* MainViewController.swift in Sources */,
+				D7D4C8B21BB2C6A70049FDD5 /* bigDescriptiveCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7D4C8791BB2C5870049FDD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7D4C8841BB2C5870049FDD5 /* DemoMailServiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7D4C87F1BB2C5870049FDD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7D4C8671BB2C5870049FDD5 /* DemoMailService */;
+			targetProxy = D7D4C87E1BB2C5870049FDD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7D4C8711BB2C5870049FDD5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7D4C8721BB2C5870049FDD5 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D7D4C8761BB2C5870049FDD5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7D4C8771BB2C5870049FDD5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7D4C8851BB2C5870049FDD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7D4C8861BB2C5870049FDD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7D4C8881BB2C5870049FDD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = DemoMailService/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoMailService/Helper/DemoMailService-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7D4C8891BB2C5870049FDD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = DemoMailService/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoMailService/Helper/DemoMailService-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		D7D4C88B1BB2C5870049FDD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DemoMailServiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoMailService.app/DemoMailService";
+			};
+			name = Debug;
+		};
+		D7D4C88C1BB2C5870049FDD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DemoMailServiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoMailService.app/DemoMailService";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7D4C8631BB2C5860049FDD5 /* Build configuration list for PBXProject "DemoMailService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7D4C8851BB2C5870049FDD5 /* Debug */,
+				D7D4C8861BB2C5870049FDD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7D4C8871BB2C5870049FDD5 /* Build configuration list for PBXNativeTarget "DemoMailService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7D4C8881BB2C5870049FDD5 /* Debug */,
+				D7D4C8891BB2C5870049FDD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7D4C88A1BB2C5870049FDD5 /* Build configuration list for PBXNativeTarget "DemoMailServiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7D4C88B1BB2C5870049FDD5 /* Debug */,
+				D7D4C88C1BB2C5870049FDD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7D4C8601BB2C5860049FDD5 /* Project object */;
+}
