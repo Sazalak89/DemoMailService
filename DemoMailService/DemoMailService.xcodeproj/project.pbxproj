@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D7D4C86E1BB2C5870049FDD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D4C86D1BB2C5870049FDD5 /* AppDelegate.swift */; };
-		D7D4C8701BB2C5870049FDD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D4C86F1BB2C5870049FDD5 /* ViewController.swift */; };
 		D7D4C8731BB2C5870049FDD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8711BB2C5870049FDD5 /* Main.storyboard */; };
 		D7D4C8781BB2C5870049FDD5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8761BB2C5870049FDD5 /* LaunchScreen.xib */; };
 		D7D4C8841BB2C5870049FDD5 /* DemoMailServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D4C8831BB2C5870049FDD5 /* DemoMailServiceTests.swift */; };
@@ -19,7 +18,6 @@
 		D7D4C8AF1BB2C6A70049FDD5 /* Calibri.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C89D1BB2C6A70049FDD5 /* Calibri.ttf */; };
 		D7D4C8B21BB2C6A70049FDD5 /* bigDescriptiveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D4C8A51BB2C6A70049FDD5 /* bigDescriptiveCell.swift */; };
 		D7D4C8B31BB2C6A70049FDD5 /* smallDescriptiveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D4C8A61BB2C6A70049FDD5 /* smallDescriptiveCell.swift */; };
-		D7D4C8B51BB2C7270049FDD5 /* UICustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D4C8B41BB2C7270049FDD5 /* UICustomTextField.swift */; };
 		D7D4C8BA1BB2E6C80049FDD5 /* Helper_OBJ.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D4C8B81BB2E6C80049FDD5 /* Helper_OBJ.m */; };
 		D7D4C8BB1BB2E6C80049FDD5 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D4C8B91BB2E6C80049FDD5 /* Helper.swift */; };
 		D7E4712D1BB3BC7400310CD1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7E4712C1BB3BC7400310CD1 /* Images.xcassets */; };
@@ -39,7 +37,6 @@
 		D7D4C8681BB2C5870049FDD5 /* DemoMailService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoMailService.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7D4C86C1BB2C5870049FDD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7D4C86D1BB2C5870049FDD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D7D4C86F1BB2C5870049FDD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D7D4C8721BB2C5870049FDD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D7D4C8771BB2C5870049FDD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D7D4C87D1BB2C5870049FDD5 /* DemoMailServiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoMailServiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,7 +49,6 @@
 		D7D4C89D1BB2C6A70049FDD5 /* Calibri.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Calibri.ttf; sourceTree = "<group>"; };
 		D7D4C8A51BB2C6A70049FDD5 /* bigDescriptiveCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bigDescriptiveCell.swift; sourceTree = "<group>"; };
 		D7D4C8A61BB2C6A70049FDD5 /* smallDescriptiveCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = smallDescriptiveCell.swift; sourceTree = "<group>"; };
-		D7D4C8B41BB2C7270049FDD5 /* UICustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICustomTextField.swift; sourceTree = "<group>"; };
 		D7D4C8B61BB2E6C70049FDD5 /* DemoMailService-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoMailService-Bridging-Header.h"; sourceTree = "<group>"; };
 		D7D4C8B71BB2E6C80049FDD5 /* Helper_OBJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper_OBJ.h; sourceTree = "<group>"; };
 		D7D4C8B81BB2E6C80049FDD5 /* Helper_OBJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper_OBJ.m; sourceTree = "<group>"; };
@@ -106,7 +102,6 @@
 				D7D4C8981BB2C6A70049FDD5 /* Resources */,
 				D7D4C8A41BB2C6A70049FDD5 /* View */,
 				D7D4C86D1BB2C5870049FDD5 /* AppDelegate.swift */,
-				D7D4C86F1BB2C5870049FDD5 /* ViewController.swift */,
 				D7D4C8761BB2C5870049FDD5 /* LaunchScreen.xib */,
 				D7D4C86B1BB2C5870049FDD5 /* Supporting Files */,
 			);
@@ -143,7 +138,6 @@
 			children = (
 				D7D4C88E1BB2C6A70049FDD5 /* DemoConstant.swift */,
 				D7D4C88F1BB2C6A70049FDD5 /* UIButtonRounded.swift */,
-				D7D4C8B41BB2C7270049FDD5 /* UICustomTextField.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -337,11 +331,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7D4C8B31BB2C6A70049FDD5 /* smallDescriptiveCell.swift in Sources */,
-				D7D4C8701BB2C5870049FDD5 /* ViewController.swift in Sources */,
 				D7D4C8A71BB2C6A70049FDD5 /* DemoConstant.swift in Sources */,
 				D7D4C8BA1BB2E6C80049FDD5 /* Helper_OBJ.m in Sources */,
 				D7D4C86E1BB2C5870049FDD5 /* AppDelegate.swift in Sources */,
-				D7D4C8B51BB2C7270049FDD5 /* UICustomTextField.swift in Sources */,
 				D7D4C8A81BB2C6A70049FDD5 /* UIButtonRounded.swift in Sources */,
 				D7D4C8BB1BB2E6C80049FDD5 /* Helper.swift in Sources */,
 				D7D4C8AC1BB2C6A70049FDD5 /* MainViewController.swift in Sources */,

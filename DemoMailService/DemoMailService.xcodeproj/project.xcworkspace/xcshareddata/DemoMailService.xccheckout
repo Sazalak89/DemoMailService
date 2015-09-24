@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B478CCB9-8EBA-4BFC-82C9-448922335C4E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DemoMailService</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B7E12BEA269C5B8A10176081976431DCAAEE56DD</key>
+		<string>https://github.com/Sazalak89/DemoMailService</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DemoMailService/DemoMailService.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B7E12BEA269C5B8A10176081976431DCAAEE56DD</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Sazalak89/DemoMailService</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B7E12BEA269C5B8A10176081976431DCAAEE56DD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B7E12BEA269C5B8A10176081976431DCAAEE56DD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DemoMailInfo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
