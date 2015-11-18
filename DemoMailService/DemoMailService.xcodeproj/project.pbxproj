@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D7D3FB211BB580B400BBD572 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3FB0E1BB580B400BBD572 /* NSObject+SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7D3FB221BB580B400BBD572 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3FB101BB580B400BBD572 /* NSString+SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7D3FB231BB580B400BBD572 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3FB121BB580B400BBD572 /* SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7D3FB241BB580B400BBD572 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3FB141BB580B400BBD572 /* SBJsonBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7D3FB251BB580B400BBD572 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3FB161BB580B400BBD572 /* SBJsonParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7D3FB261BB580B400BBD572 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3FB181BB580B400BBD572 /* SBJsonWriter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7D3FB271BB580B400BBD572 /* NSURLConnection+SendAsync.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3FB1A1BB580B400BBD572 /* NSURLConnection+SendAsync.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7D3FB281BB580B400BBD572 /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = D7D3FB1B1BB580B400BBD572 /* ReadMe.txt */; };
+		D7D3FB291BB580B400BBD572 /* WSFrameWork.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3FB1D1BB580B400BBD572 /* WSFrameWork.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7D3FB2A1BB580B400BBD572 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3FB201BB580B400BBD572 /* XMLReader.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D7D4C86E1BB2C5870049FDD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D4C86D1BB2C5870049FDD5 /* AppDelegate.swift */; };
 		D7D4C8731BB2C5870049FDD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8711BB2C5870049FDD5 /* Main.storyboard */; };
 		D7D4C8781BB2C5870049FDD5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8761BB2C5870049FDD5 /* LaunchScreen.xib */; };
@@ -18,7 +28,7 @@
 		D7D4C8AF1BB2C6A70049FDD5 /* Calibri.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C89D1BB2C6A70049FDD5 /* Calibri.ttf */; };
 		D7D4C8B21BB2C6A70049FDD5 /* bigDescriptiveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D4C8A51BB2C6A70049FDD5 /* bigDescriptiveCell.swift */; };
 		D7D4C8B31BB2C6A70049FDD5 /* smallDescriptiveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D4C8A61BB2C6A70049FDD5 /* smallDescriptiveCell.swift */; };
-		D7D4C8BA1BB2E6C80049FDD5 /* Helper_OBJ.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D4C8B81BB2E6C80049FDD5 /* Helper_OBJ.m */; };
+		D7D4C8BA1BB2E6C80049FDD5 /* Helper_OBJ.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D4C8B81BB2E6C80049FDD5 /* Helper_OBJ.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D7D4C8BB1BB2E6C80049FDD5 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D4C8B91BB2E6C80049FDD5 /* Helper.swift */; };
 		D7E4712D1BB3BC7400310CD1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7E4712C1BB3BC7400310CD1 /* Images.xcassets */; };
 /* End PBXBuildFile section */
@@ -34,6 +44,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D784CF081BFC40DF00DEC89D /* MailInfoWSConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MailInfoWSConstant.h; sourceTree = "<group>"; };
+		D7D3FB0C1BB580B400BBD572 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		D7D3FB0D1BB580B400BBD572 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		D7D3FB0E1BB580B400BBD572 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		D7D3FB0F1BB580B400BBD572 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		D7D3FB101BB580B400BBD572 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		D7D3FB111BB580B400BBD572 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		D7D3FB121BB580B400BBD572 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		D7D3FB131BB580B400BBD572 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		D7D3FB141BB580B400BBD572 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		D7D3FB151BB580B400BBD572 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		D7D3FB161BB580B400BBD572 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		D7D3FB171BB580B400BBD572 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		D7D3FB181BB580B400BBD572 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		D7D3FB191BB580B400BBD572 /* NSURLConnection+SendAsync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLConnection+SendAsync.h"; sourceTree = "<group>"; };
+		D7D3FB1A1BB580B400BBD572 /* NSURLConnection+SendAsync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLConnection+SendAsync.m"; sourceTree = "<group>"; };
+		D7D3FB1B1BB580B400BBD572 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		D7D3FB1C1BB580B400BBD572 /* WSFrameWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSFrameWork.h; sourceTree = "<group>"; };
+		D7D3FB1D1BB580B400BBD572 /* WSFrameWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSFrameWork.m; sourceTree = "<group>"; };
+		D7D3FB1F1BB580B400BBD572 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		D7D3FB201BB580B400BBD572 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
+		D7D3FB2C1BB581BC00BBD572 /* DemoMailService-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoMailService-Bridging-Header.h"; sourceTree = "<group>"; };
 		D7D4C8681BB2C5870049FDD5 /* DemoMailService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoMailService.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7D4C86C1BB2C5870049FDD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7D4C86D1BB2C5870049FDD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,7 +81,6 @@
 		D7D4C89D1BB2C6A70049FDD5 /* Calibri.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Calibri.ttf; sourceTree = "<group>"; };
 		D7D4C8A51BB2C6A70049FDD5 /* bigDescriptiveCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bigDescriptiveCell.swift; sourceTree = "<group>"; };
 		D7D4C8A61BB2C6A70049FDD5 /* smallDescriptiveCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = smallDescriptiveCell.swift; sourceTree = "<group>"; };
-		D7D4C8B61BB2E6C70049FDD5 /* DemoMailService-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoMailService-Bridging-Header.h"; sourceTree = "<group>"; };
 		D7D4C8B71BB2E6C80049FDD5 /* Helper_OBJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper_OBJ.h; sourceTree = "<group>"; };
 		D7D4C8B81BB2E6C80049FDD5 /* Helper_OBJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper_OBJ.m; sourceTree = "<group>"; };
 		D7D4C8B91BB2E6C80049FDD5 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
@@ -74,6 +105,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D7D3FB0A1BB580B400BBD572 /* WSFramework */ = {
+			isa = PBXGroup;
+			children = (
+				D7D3FB0B1BB580B400BBD572 /* JSON */,
+				D7D3FB191BB580B400BBD572 /* NSURLConnection+SendAsync.h */,
+				D7D3FB1A1BB580B400BBD572 /* NSURLConnection+SendAsync.m */,
+				D7D3FB1B1BB580B400BBD572 /* ReadMe.txt */,
+				D7D3FB1C1BB580B400BBD572 /* WSFrameWork.h */,
+				D7D3FB1D1BB580B400BBD572 /* WSFrameWork.m */,
+				D7D3FB1E1BB580B400BBD572 /* XMLReader */,
+			);
+			path = WSFramework;
+			sourceTree = "<group>";
+		};
+		D7D3FB0B1BB580B400BBD572 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				D7D3FB0C1BB580B400BBD572 /* JSON.h */,
+				D7D3FB0D1BB580B400BBD572 /* NSObject+SBJSON.h */,
+				D7D3FB0E1BB580B400BBD572 /* NSObject+SBJSON.m */,
+				D7D3FB0F1BB580B400BBD572 /* NSString+SBJSON.h */,
+				D7D3FB101BB580B400BBD572 /* NSString+SBJSON.m */,
+				D7D3FB111BB580B400BBD572 /* SBJSON.h */,
+				D7D3FB121BB580B400BBD572 /* SBJSON.m */,
+				D7D3FB131BB580B400BBD572 /* SBJsonBase.h */,
+				D7D3FB141BB580B400BBD572 /* SBJsonBase.m */,
+				D7D3FB151BB580B400BBD572 /* SBJsonParser.h */,
+				D7D3FB161BB580B400BBD572 /* SBJsonParser.m */,
+				D7D3FB171BB580B400BBD572 /* SBJsonWriter.h */,
+				D7D3FB181BB580B400BBD572 /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		D7D3FB1E1BB580B400BBD572 /* XMLReader */ = {
+			isa = PBXGroup;
+			children = (
+				D7D3FB1F1BB580B400BBD572 /* XMLReader.h */,
+				D7D3FB201BB580B400BBD572 /* XMLReader.m */,
+			);
+			path = XMLReader;
+			sourceTree = "<group>";
+		};
 		D7D4C85F1BB2C5860049FDD5 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +178,7 @@
 				D7D4C86D1BB2C5870049FDD5 /* AppDelegate.swift */,
 				D7D4C8761BB2C5870049FDD5 /* LaunchScreen.xib */,
 				D7D4C86B1BB2C5870049FDD5 /* Supporting Files */,
+				D7D3FB2C1BB581BC00BBD572 /* DemoMailService-Bridging-Header.h */,
 			);
 			path = DemoMailService;
 			sourceTree = "<group>";
@@ -138,6 +213,7 @@
 			children = (
 				D7D4C88E1BB2C6A70049FDD5 /* DemoConstant.swift */,
 				D7D4C88F1BB2C6A70049FDD5 /* UIButtonRounded.swift */,
+				D784CF081BFC40DF00DEC89D /* MailInfoWSConstant.h */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -156,7 +232,6 @@
 				D7D4C8B71BB2E6C80049FDD5 /* Helper_OBJ.h */,
 				D7D4C8B81BB2E6C80049FDD5 /* Helper_OBJ.m */,
 				D7D4C8B91BB2E6C80049FDD5 /* Helper.swift */,
-				D7D4C8B61BB2E6C70049FDD5 /* DemoMailService-Bridging-Header.h */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -164,6 +239,7 @@
 		D7D4C8971BB2C6A70049FDD5 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				D7D3FB0A1BB580B400BBD572 /* WSFramework */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -272,6 +348,7 @@
 		D7D4C8601BB2C5860049FDD5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Solution Analysts Pvt. Ltd.";
 				TargetAttributes = {
@@ -312,6 +389,7 @@
 				D7E4712D1BB3BC7400310CD1 /* Images.xcassets in Resources */,
 				D7D4C8781BB2C5870049FDD5 /* LaunchScreen.xib in Resources */,
 				D7D4C8AE1BB2C6A70049FDD5 /* Calibri Bold.ttf in Resources */,
+				D7D3FB281BB580B400BBD572 /* ReadMe.txt in Resources */,
 				D7D4C8AF1BB2C6A70049FDD5 /* Calibri.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,14 +408,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7D3FB291BB580B400BBD572 /* WSFrameWork.m in Sources */,
+				D7D3FB221BB580B400BBD572 /* NSString+SBJSON.m in Sources */,
+				D7D3FB241BB580B400BBD572 /* SBJsonBase.m in Sources */,
 				D7D4C8B31BB2C6A70049FDD5 /* smallDescriptiveCell.swift in Sources */,
 				D7D4C8A71BB2C6A70049FDD5 /* DemoConstant.swift in Sources */,
+				D7D3FB251BB580B400BBD572 /* SBJsonParser.m in Sources */,
 				D7D4C8BA1BB2E6C80049FDD5 /* Helper_OBJ.m in Sources */,
 				D7D4C86E1BB2C5870049FDD5 /* AppDelegate.swift in Sources */,
+				D7D3FB261BB580B400BBD572 /* SBJsonWriter.m in Sources */,
+				D7D3FB211BB580B400BBD572 /* NSObject+SBJSON.m in Sources */,
 				D7D4C8A81BB2C6A70049FDD5 /* UIButtonRounded.swift in Sources */,
+				D7D3FB2A1BB580B400BBD572 /* XMLReader.m in Sources */,
 				D7D4C8BB1BB2E6C80049FDD5 /* Helper.swift in Sources */,
+				D7D3FB271BB580B400BBD572 /* NSURLConnection+SendAsync.m in Sources */,
 				D7D4C8AC1BB2C6A70049FDD5 /* MainViewController.swift in Sources */,
 				D7D4C8B21BB2C6A70049FDD5 /* bigDescriptiveCell.swift in Sources */,
+				D7D3FB231BB580B400BBD572 /* SBJSON.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,7 +558,7 @@
 				INFOPLIST_FILE = DemoMailService/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "DemoMailService/Helper/DemoMailService-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoMailService/DemoMailService-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -484,7 +571,7 @@
 				INFOPLIST_FILE = DemoMailService/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "DemoMailService/Helper/DemoMailService-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoMailService/DemoMailService-Bridging-Header.h";
 			};
 			name = Release;
 		};

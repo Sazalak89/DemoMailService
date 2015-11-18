@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
@@ -19,8 +19,11 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_bg_Screen" translatesAutoresizingMaskIntoConstraints="NO" id="xvA-x3-ZoM">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nmI-tR-JRx" customClass="UIButtonRounded" customModule="DemoMailService" customModuleProvider="target">
-                                <rect key="frame" x="102" y="511" width="90" height="42"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nmI-tR-JRx" customClass="UIButtonRounded" customModule="DemoMailService" customModuleProvider="target">
+                                <rect key="frame" x="115" y="518" width="90" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="cMX-9H-OxP"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="20"/>
                                 <state key="normal" title="Submit">
                                     <color key="titleColor" red="0.1019607843" green="0.2274509804" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -149,10 +152,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="centerX" secondItem="nmI-tR-JRx" secondAttribute="centerX" id="5OG-9G-zYo"/>
                             <constraint firstAttribute="trailing" secondItem="xvA-x3-ZoM" secondAttribute="trailing" id="7E5-Ur-DZh"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="xvA-x3-ZoM" secondAttribute="bottom" id="9ld-A8-kxn"/>
                             <constraint firstItem="xvA-x3-ZoM" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="BA5-vN-Qmj"/>
                             <constraint firstItem="xvA-x3-ZoM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="FV3-44-pau"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="nmI-tR-JRx" secondAttribute="bottom" constant="15" id="e1Q-aO-F4u"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>

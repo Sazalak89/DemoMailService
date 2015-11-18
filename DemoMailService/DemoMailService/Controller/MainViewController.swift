@@ -76,12 +76,14 @@ class MainViewController: UIViewController , UITextFieldDelegate{
 			
 			return
 		}
-		
-		dicData["Name"] = IBtxtFieldName.text
-		dicData["Email"] = IBtxtFieldEmail.text
-		dicData["Contact"] = IBtxtcontact.text
-		dicData["Service"] = arrService.lastObject as! String
+//		
+//		dicData["name"] = IBtxtFieldName.text as String
+//		dicData["email"] = IBtxtFieldEmail.text as String
+////		dicData["Contact"] = IBtxtcontact.text
+//		dicData["service_name"] = arrService.lastObject as! String
+		dicData = ["name": IBtxtFieldName.text as String,"email": IBtxtFieldEmail.text as String,"service_name" : arrService.lastObject as! String]
 		println("dicData\(dicData)")
+		callWSService(dicData)
 	}
 	
 	// MARK:- TextField Delegate Method
@@ -236,6 +238,24 @@ class MainViewController: UIViewController , UITextFieldDelegate{
 		return true
 	}
 	
+	func callWSService(dicParams:NSDictionary)
+	{
+
+		let wsGetMailInfo:WSFrameWork = WSFrameWork(URLAndParams: "", dicParams: dicParams as [NSObject : AnyObject])
+		wsGetMailInfo.WSType = kPOST
+		wsGetMailInfo.isSync = true
+		wsGetMailInfo.isLogging = true
+		var DictResponse:NSDictionary = NSDictionary()
+		wsGetMailInfo.onSuccess = { (dicResponse)  -> Void in
+			DictResponse = dicResponse
+
+	}
+		wsGetMailInfo.onError = { (error : NSError!) -> Void in
+			
+			Helper .displayAlertView("", message: "\(error.localizedDescription)")
+		}
+		wsGetMailInfo.send()
+	}
 		/*
 	// MARK: - Navigation
 	
