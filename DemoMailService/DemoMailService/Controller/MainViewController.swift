@@ -72,11 +72,15 @@ class MainViewController: UIViewController , UITextFieldDelegate{
 		button2.selected = false
 	}
 	@IBAction func btnSubmitClicked(sender: UIButtonRounded) {
+		
+		
 		if !validateAllDetails(){
 			
+			MBProgressHUD.hideHUDForView(self.view, animated: true)
 			return
+			
 		}
-//		
+		
 //		dicData["name"] = IBtxtFieldName.text as String
 //		dicData["email"] = IBtxtFieldEmail.text as String
 ////		dicData["Contact"] = IBtxtcontact.text
@@ -170,7 +174,7 @@ class MainViewController: UIViewController , UITextFieldDelegate{
 	}
 	// MARK:- Validation for Details
 	func validateAllDetails() -> Bool{
-		
+		MBProgressHUD.showHUDAddedTo(self.view, animated: true)
 		var str = IBtxtFieldName!.text.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
 		
 		if str.isEmpty{
@@ -240,18 +244,20 @@ class MainViewController: UIViewController , UITextFieldDelegate{
 	
 	func callWSService(dicParams:NSDictionary)
 	{
-
+		
 		let wsGetMailInfo:WSFrameWork = WSFrameWork(URLAndParams: "", dicParams: dicParams as [NSObject : AnyObject])
 		wsGetMailInfo.WSType = kPOST
 		wsGetMailInfo.isSync = true
 		wsGetMailInfo.isLogging = true
 		var DictResponse:NSDictionary = NSDictionary()
+		
 		wsGetMailInfo.onSuccess = { (dicResponse)  -> Void in
 			DictResponse = dicResponse
+			MBProgressHUD.hideHUDForView(self.view, animated: true)
 			Helper .displayAlertView("Success", message: "Mail has been sent to your email address.. Thank you!!")
 	}
 		wsGetMailInfo.onError = { (error : NSError!) -> Void in
-			
+			MBProgressHUD.hideHUDForView(self.view, animated: true)
 			Helper .displayAlertView("", message: "\(error.localizedDescription)")
 		}
 		wsGetMailInfo.send()

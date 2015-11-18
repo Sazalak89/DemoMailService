@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D784CF0C1BFC536E00DEC89D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D784CF0B1BFC536E00DEC89D /* MBProgressHUD.m */; };
 		D7D3FB211BB580B400BBD572 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3FB0E1BB580B400BBD572 /* NSObject+SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D7D3FB221BB580B400BBD572 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3FB101BB580B400BBD572 /* NSString+SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D7D3FB231BB580B400BBD572 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3FB121BB580B400BBD572 /* SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -45,6 +46,8 @@
 
 /* Begin PBXFileReference section */
 		D784CF081BFC40DF00DEC89D /* MailInfoWSConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MailInfoWSConstant.h; sourceTree = "<group>"; };
+		D784CF0A1BFC536E00DEC89D /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		D784CF0B1BFC536E00DEC89D /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		D7D3FB0C1BB580B400BBD572 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
 		D7D3FB0D1BB580B400BBD572 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
 		D7D3FB0E1BB580B400BBD572 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
@@ -105,6 +108,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D784CF091BFC536E00DEC89D /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				D784CF0A1BFC536E00DEC89D /* MBProgressHUD.h */,
+				D784CF0B1BFC536E00DEC89D /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
 		D7D3FB0A1BB580B400BBD572 /* WSFramework */ = {
 			isa = PBXGroup;
 			children = (
@@ -239,6 +251,7 @@
 		D7D4C8971BB2C6A70049FDD5 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				D784CF091BFC536E00DEC89D /* MBProgressHUD */,
 				D7D3FB0A1BB580B400BBD572 /* WSFramework */,
 			);
 			path = Library;
@@ -421,6 +434,7 @@
 				D7D4C8A81BB2C6A70049FDD5 /* UIButtonRounded.swift in Sources */,
 				D7D3FB2A1BB580B400BBD572 /* XMLReader.m in Sources */,
 				D7D4C8BB1BB2E6C80049FDD5 /* Helper.swift in Sources */,
+				D784CF0C1BFC536E00DEC89D /* MBProgressHUD.m in Sources */,
 				D7D3FB271BB580B400BBD572 /* NSURLConnection+SendAsync.m in Sources */,
 				D7D4C8AC1BB2C6A70049FDD5 /* MainViewController.swift in Sources */,
 				D7D4C8B21BB2C6A70049FDD5 /* bigDescriptiveCell.swift in Sources */,

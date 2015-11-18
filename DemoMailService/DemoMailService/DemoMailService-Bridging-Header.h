@@ -10,6 +10,7 @@
 #define DemoMailService_DemoMailService_Bridging_Header_h
 
 #import "WSFrameWork.h"
+#import "MBProgressHUD.h"
 #import "Helper_OBJ.h"
 #import "MailInfoWSConstant.h"
 #endif
