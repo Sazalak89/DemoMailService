@@ -248,7 +248,7 @@ class MainViewController: UIViewController , UITextFieldDelegate{
 		var DictResponse:NSDictionary = NSDictionary()
 		wsGetMailInfo.onSuccess = { (dicResponse)  -> Void in
 			DictResponse = dicResponse
-
+			Helper .displayAlertView("Success", message: "Mail has been sent to your email address.. Thank you!!")
 	}
 		wsGetMailInfo.onError = { (error : NSError!) -> Void in
 			
